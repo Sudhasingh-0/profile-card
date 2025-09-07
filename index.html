@@ -11,27 +11,27 @@
         height: 100%;
        }
        .container{
-        height: 50%;
+        height: 100%;
         background-color: black;
         display: flex;
         justify-content: center;
         align-items: center;
        }
        .box{
-        background-color: #333;
+        background-color: #620808;
         text-align: center;
-        padding: 100px 100px ;
+        padding: 60px 80px ;
         border-radius: 20px;
         border: 5px solid gold;
+        
        }
        .box:hover{
             transform:scale(1.05);
        }
        #profile{
         height: 200px;
+        width: 150px;
         
-        border-radius: 50%;
-        border: 2px solid gold;
         
        }
        button{
@@ -41,6 +41,7 @@
         width: 150px;
         border-radius: 20px;
         border: 2px solid gold;
+        margin: 10px;
        }
        button:hover{
         transform:scale(1.03);
@@ -51,32 +52,35 @@
         
        }
        #l,#x,#g{
+        height: 40px;
+        width: 40px;
         border-radius: 50%;
         border: 2px solid gold;
+        margin: 10px;
        }
        #l:hover,#x:hover,#g:hover{
-        transform:scale(1.1);
+        transform:scale(1.2);
        }
        
     </style>
 </head>
 <body>
-<div class="cont">
+<div class="container">
     <div class="box">
         <h2>Sudha Singh</h2>
-        <img src="profilepicture.png"  alt="profile photo" id="profile"><br>
+        <img src="profilepicture.png"  alt="profile photo" id="profile"><br><br>
 
         <button>view portfolio</button>
-        <button>Major Project</button>
+        <button>Major Project</button><br><br>
+
         <div class="logo">
-            <img src="linkedin.png"  alt="linkedin" id="l">
+            <img src="linkedin.png"   alt="linkedin" id="l">
             <img src="x.png"  alt="X img" id="x">
             <img src="github.png"  alt="github img" id="g">
+        </div>
 
     </div>
 </div>
     
 </body>
-
 </html>
-
